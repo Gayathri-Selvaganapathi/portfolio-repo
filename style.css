@@ -151,11 +151,12 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
+  height: auto; /* Change this to auto */
 }
+
 
 .section-container {
   display: flex;
@@ -317,18 +318,18 @@ section {
 
 /* EXPERIENCE SECTION */
 
-#experience {
+#techstack {
   position: relative;
 }
 
-.experience-sub-title {
+.techstack-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
 }
 
-.experience-details-container {
+.techstack-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -389,6 +390,7 @@ article .icon {
   flex-direction: column;
   height: 70vh;
 }
+
 
 .contact-info-upper-container {
   display: flex;
